@@ -2,7 +2,9 @@ def sumar(a, b):
     return a + b
 
 if __name__ == "__main__":
-    num1 = input("Introduce un numero:" )
-    num2 = input("Introduce un numero")
+    num1 = int(input("Introduce un numero: "))
+    num2 = int(input("Introduce otro numero: "))
     resultado = sumar(num1, num2)
-    print(f"La suma de {num1} y {num2} es {resultado}")
+    print("La suma es:", resultado)
+
+# Link del repositorio: "https://github.com/Gabriellogan11/Tarea3"
