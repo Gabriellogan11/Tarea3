@@ -1,3 +1,6 @@
+
+# Tarea 3
+
 def sumar(a, b):
     return a + b
 
@@ -7,4 +10,12 @@ if __name__ == "__main__":
     resultado = sumar(num1, num2)
     print("La suma es:", resultado)
 
-# Link del repositorio: "https://github.com/Gabriellogan11/Tarea3"
+# Link del repositorio: "https://github.com/Gabriellogan11/proyectomlops"
+
+def perro_gato(animal: str):
+    if animal == "cat":
+        return True
+    else:
+        return False
+
+
